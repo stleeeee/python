@@ -21,9 +21,9 @@ print(f'합집합2: {s1.union(s2)}')
 
 # 차집합(minus | difference)
 print(f'차집합1: {s1 - s2}') # 1, 2, 3
-print(f'차집합1: {s2 - s1}') # 7, 8, 9
+print(f'차집합1: {s2 - s1}')
 print(f'차집합2: {s1.difference(s2)}') # 1, 2, 3
-print(f'차집합2: {s2.difference(s1)}') # 7, 8, 9
+print(f'차집합2: {s2.difference(s1)}')
 
 # 값 1개 추가하기
 s1.add(10)
