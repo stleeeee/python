@@ -1,5 +1,4 @@
 # try 코드 안에서 여러개의 예외가 발생한 경우...
-from importlib.metadata import pass_none
 
 # 1. 생겨난 예외마다 각기 다른 처릴르 해주고 싶을 때
 try:
