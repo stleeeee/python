@@ -14,7 +14,7 @@ class SchoolMember:
     name = ""
     age = 0
 
-    def __init__(self, name, age): # 받아온 값으로 초기화 하고 객체화 된다.
+    def __init__(self, name, age): # 3. 받아온 값으로 초기화 하고 객체화 된다.
         self.name = name
         self.age = age
 
@@ -22,7 +22,7 @@ class Teacher(SchoolMember): # 자식
     salary = 0
 
     def __init__(self, name, age, salary):
-        super().__init__(name, age) # 2. 부모를 먼저 객체화 시키면서 초기화 할 값을 전달
+        super().__init__(name, age) # 2. 부모를 먼저 객체화 시키면서 초기화 할 값을 전달. super 를 통해 name, age 는 부모를 통해 가져옴
         self.salary = salary # 4. 그리고 나서 내가 초기화 하면서 객체화 된다.
 
 # 1. Teacher 라는 클래스를 객체화 한다. (초기화를 위해 매개변수를 전달)
